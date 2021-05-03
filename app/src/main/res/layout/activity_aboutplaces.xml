@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    android:orientation="vertical"
+    tools:context=".aboutPlaces">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aboutPlacesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="-190dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="ABOUT PLACES"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/ivAboutPlaces"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/about_places_content" />
+
+        <TextView
+            android:id="@+id/tvAboutPlacesText"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="35dp"
+            android:fontFamily="@font/candal"
+            android:lineSpacingExtra="5.5dp"
+            android:text="Penang – a world renowned exotic holiday destination – was known, once upon a time, as Pulau Pinang or the “Isle of the Betel Nut”. Listed as a UNESCO World Cultural Heritage Site in 2008, this virgin paradise has no shortage of cultural sights and natural scenery. Nicknamed the Pearl of the Orient, Penang is famous for its soft sandy beaches and is fondly regarded as the food capital of Malaysia. Some of the most interesting sites of Penang include the sandy beaches of Tanjung Bungah, the landscape from the summit of Penang Hill and the vipers in the Snake Temple. The quaint nooks and crannies of Georgetown and the Tropical Spice Garden – the only spice garden in South East Asia – as well as Penang’s many flea markets, pasar malams’, KOMTAR and modern shopping malls also merit a visit."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </LinearLayout>
+</ScrollView>

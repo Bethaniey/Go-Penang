@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    tools:context=".termsPolicy">
+
+    <TextView
+        android:id="@+id/tvTermsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/candal"
+        android:text="@string/terms_privacy_policy"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/candal"
+        android:text="By using or accessing our apps or by providing personal information to us on or through these apps, you consent to the collection, use, transfer and disclosure of that information in accordance with this privacy policy and applicable law."
+        android:textAlignment="center"
+        android:textColor="#DF000000"
+        android:textSize="16dp" />
+</RelativeLayout>

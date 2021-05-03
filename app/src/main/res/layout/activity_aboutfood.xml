@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    android:orientation="vertical"
+    tools:context=".aboutFood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aboutFoodTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="-190dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="ABOUT FOOD"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/ivAboutFood"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/about_food_content" />
+
+        <TextView
+            android:id="@+id/tvAboutFoodText"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="35dp"
+            android:fontFamily="@font/candal"
+            android:lineSpacingExtra="5.5dp"
+            android:text="Penang cuisine is the cuisine of the multicultural society of Penang, Malaysia. Most of these cuisine are sold at road-side stalls, known as 'hawker food' and colloquially as 'muckan carts'. Local Penangites typically find these hawker fares cheaper and easier to eat out at due to the ubiquitousness of the hawker stalls and that they are open for much of the day and night. Penang island. On February 22, 2013, Penang was ranked by CNN Travel as one of the top ten street food cities in Asia. Penang has also been voted by Lonely Planet as the top culinary destination in 2014."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    </LinearLayout>
+</ScrollView>

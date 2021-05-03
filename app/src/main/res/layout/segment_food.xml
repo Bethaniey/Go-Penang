@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    tools:context=".foodSegment">
+
+    <TextView
+        android:id="@+id/food_text"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="FOOD"
+        android:textSize="36dp"
+        android:textColor="@color/black"/>
+
+    <ImageButton
+        android:id="@+id/about_food"
+        android:layout_width="329dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/about_food" />
+
+    <TextView
+        android:id="@+id/aboutFood_text"
+        android:layout_width="329dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="170dp"
+        android:clickable="true"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="ABOUT"
+        android:textSize="26dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="10.5"
+        android:shadowDy="10.3"
+        android:shadowRadius="25.6"
+        android:textAllCaps="true" />
+
+    <ImageButton
+        android:id="@+id/hawker_food"
+        android:layout_width="329dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="290dp"
+        app:srcCompat="@drawable/hawker_food" />
+
+    <TextView
+        android:id="@+id/hawker_text"
+        android:layout_width="329dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="310dp"
+        android:clickable="true"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="HAWKER"
+        android:textSize="26dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="10.5"
+        android:shadowDy="10.3"
+        android:shadowRadius="25.6"
+        android:textAllCaps="true" />
+
+    <ImageButton
+        android:id="@+id/restaurant_food"
+        android:layout_width="329dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="430dp"
+        app:srcCompat="@drawable/restaurant_food" />
+
+    <TextView
+        android:id="@+id/restaurant_text"
+        android:layout_width="329dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="450dp"
+        android:clickable="true"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="RESTAURANT"
+        android:textSize="26dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="10.5"
+        android:shadowDy="10.3"
+        android:shadowRadius="25.6"
+        android:textAllCaps="true" />
+</RelativeLayout>

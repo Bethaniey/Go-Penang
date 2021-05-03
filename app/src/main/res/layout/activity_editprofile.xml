@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    tools:context=".editProfile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/candal"
+        android:text="EDIT PROFILE"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="127dp"
+        android:layout_height="56dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:text="NAME :"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEditName"
+        android:layout_width="264dp"
+        android:layout_height="56dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@+id/tvName"
+        android:fontFamily="@font/candal" />
+
+    <Button
+        android:id="@+id/btnUpdateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/candal"
+        android:text="UPDATE PROFILE" />
+
+    <Button
+        android:id="@+id/btnChgePw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUpdateProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/candal"
+        android:text="CHANGE PASSWORD" />
+
+</RelativeLayout>
